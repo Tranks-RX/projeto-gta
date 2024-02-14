@@ -225,7 +225,35 @@ body{
     background-color: #FCAF17;
 }
 
+@media(max-width: 768px){
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;/*Reduz o preenchimento do cabeçalho*/
+    }
 
+    .home .informacoes{
+        padding: 20px;/*Reduz o preenchimento das informacoes na tela inicial*/
+    }
+    .compre-ja .cartao{
+        width: 80%;/* Reduz a largura do cartão na seção compre-ja*/
+    }
+}
+
+@media(max-width:576px){
+    .cabecalho .menu li a{
+        padding: 15px; /*reduz o preenchimento dos itens do menu*/
+        font-size: 12px; /*reduz o tamanho da fonte dos itens do menu*/
+    }
+
+    .home .informacoes{
+        padding: 10px;
+    }
+
+    .compre-ja .cartao{
+        padding: 40px 20px;
+    }
+}
 
 
 
