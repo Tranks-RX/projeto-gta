@@ -238,6 +238,10 @@ body{
     .compre-ja .cartao{
         width: 80%;/* Reduz a largura do cartão na seção compre-ja*/
     }
+
+    .capa-do-jogo{
+        width: 99% !important;
+    }
 }
 
 @media(max-width:576px){
